@@ -1,0 +1,130 @@
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 50px;
+}
+
+
+header {
+    background-color: rgb(87, 75, 75);
+    padding: 20px 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo img {
+    height: 100px;
+    width: auto;
+  }
+  
+  #app {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+  
+  .container {
+    margin: 20px auto;
+    max-width: 700px; 
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  hr {
+    border: 3px solid #ccc;
+  }
+  
+  .input-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    flex: 1;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: white;
+    border: none;
+  }
+  
+  .todo-table {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .table-header {
+    display: flex;
+    background-color: #f0f0f0;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .table-cell {
+    flex: 1;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .table-body {
+    display: grid;
+  }
+  
+  .table-row {
+    display: flex;
+    border-top: 1px solid #ccc;
+  }
+  
+  .even-row {
+    background-color: #f9f9f9;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+  }
+  
+  .completed-cell {
+    color: #888;
+  }
+  
+  .btn {
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .btn-info {
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border: none;
+  }
